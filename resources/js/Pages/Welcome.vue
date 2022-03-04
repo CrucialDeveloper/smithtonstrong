@@ -1,20 +1,23 @@
 <template>
     <Head title="Is Walton's Open?" />
 
-    <div class="w-screen h-screen flex items-center justify-center flex-col">
+    <div class="flex flex-col items-center justify-center w-screen h-screen">
         <div class="text-5xl">Is Walton's Open?</div>
 
         <div class="mt-16 text-center" v-if="!open">
             <p class="text-9xl">NO!</p>
             <p class="text-3xl">I feel so sad!</p>
+            <img src="https://media.giphy.com/media/9Y5BbDSkSTiY8/giphy.gif" alt />
         </div>
 
         <div class="mt-16 text-center" v-if="open">
             <p class="text-9xl">YES!</p>
             <p class="text-3xl">What are you doing here? Go get ice cream!</p>
+            <img src="https://media.giphy.com/media/3NtY188QaxDdC/giphy.gif" alt />
         </div>
 
         <vue-countdown
+            v-if="!open"
             class="mt-16 text-5xl"
             :time="countDownDate"
             v-slot="{ days, hours, minutes, seconds }"
