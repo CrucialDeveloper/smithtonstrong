@@ -23866,7 +23866,7 @@ var _hoisted_1 = {
 };
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "text-5xl"
+  "class": "text-5xl text-center"
 }, "Is Walton's Open?", -1
 /* HOISTED */
 );

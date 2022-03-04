@@ -2,7 +2,7 @@
     <Head title="Is Walton's Open?" />
 
     <div class="flex flex-col items-center justify-center mx-auto">
-        <div class="text-5xl">Is Walton's Open?</div>
+        <div class="text-5xl text-center">Is Walton's Open?</div>
 
         <div class="mt-16 text-center" v-if="!open">
             <p class="text-9xl">NO!</p>
