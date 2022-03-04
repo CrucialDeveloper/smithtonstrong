@@ -1,7 +1,7 @@
 <template>
     <Head title="Is Walton's Open?" />
 
-    <div class="flex flex-col items-center justify-center w-screen h-screen">
+    <div class="flex flex-col items-center justify-center mx-auto">
         <div class="text-5xl">Is Walton's Open?</div>
 
         <div class="mt-16 text-center" v-if="!open">

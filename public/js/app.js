@@ -23862,7 +23862,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "flex flex-col items-center justify-center w-screen h-screen"
+  "class": "flex flex-col items-center justify-center mx-auto"
 };
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -23914,7 +23914,7 @@ var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 );
 
 var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "https://media.giphy.com/media/3NtY188QaxDdC/giphy.gif",
+  src: "https://media.giphy.com/media/26uf7yJapo82e48yA/giphy.gif",
   alt: ""
 }, null, -1
 /* HOISTED */
