@@ -13,7 +13,7 @@
         <div class="mt-16 text-center" v-if="open">
             <p class="text-9xl">YES!</p>
             <p class="text-3xl">What are you doing here? Go get ice cream!</p>
-            <img src="https://media.giphy.com/media/3NtY188QaxDdC/giphy.gif" alt />
+            <img src="https://media.giphy.com/media/26uf7yJapo82e48yA/giphy.gif" alt />
         </div>
 
         <vue-countdown
