@@ -19,6 +19,13 @@
             :time="countDownDate"
             v-slot="{ days, hours, minutes, seconds }"
         >Time Remaining：{{ days }} days, {{ hours }} hours, {{ minutes }} minutes, {{ seconds }} seconds.</vue-countdown>
+
+        <p class="mt-8 text-3xl">
+            <a
+                class="text-blue-500 underline hover:text-blue-600"
+                href="https://www.facebook.com/WaltonsIceCream"
+            >Walton's Ice Cream</a>
+        </p>
     </div>
 </template>
 
